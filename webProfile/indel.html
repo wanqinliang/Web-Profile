@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <!-- required meta tags-->
+    <meta charset = "utf-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--titile of the html page-->
+    <title>Wanqin Liang Profile</title>
+    
+    <!--make the html icon of the title-->
+    <link rel="shortcut icon" href="img/man.png">
+    
+    <!--link the google font-->
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+    <!--link the bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--link the style css file-->
+    <link rel="stylesheet" href= "css/style.css">
+    <!-- link the animate CSS-->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    
+</head>
+    
+<body>
+    
+    
+    
+    <!--creating meau bar-->
+    <nav class="navbar  nav-inverse navbar-default navbar-fixed-top">
+        <div class="animated slideInDown container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#page1">Wanqin Liang</a>
+               <img src="img/man.png" class="img-rounded" alt="icons" width="20" height="20">
+            </div>
+        <!--    <ul class="nav navbar-light">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+            <ul class="nav navbar">
+              <li><a class ="smooth-scroll" href="#page1">who</a></li>
+            </ul>
+            <ul class="nav navbar">
+              <li><a class ="smooth-scroll" href="#about">About me</a></li>
+            </ul>
+            <ul class="nav navbar">
+              <li><a class ="smooth-scroll" href="#project">Project</a></li>
+            </ul>
+            <ul class="nav navbar">
+              <li><a class ="smooth-scroll" href="#contact">Contact</a></li>
+            </ul>-->
+            <ul class="nav navbar-light ">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a class ="smooth-scroll" href="#page1">who</a></li>
+              <li><a class ="smooth-scroll" href="#about">About me</a></li>
+              <li><a class ="smooth-scroll" href="#project">Project</a></li>
+              <li><a class ="smooth-scroll" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+      
+    <!-- First Container -->
+    <section id= "page1">   
+        <div class="container-fluid1 bg-1 text-center">
+            <h3 class="margin wow fadeIn"> WANQIN  LIANG</h3>
+            <img src="img/525ML180314KF02-012.jpg" class="wow zoomIn img-responsive img-circle margin" style="display:inline" alt="ken" width="200" height="200">
+            
+            <h3 class="wow zoomIn margin">I am a Front-End Developer</h3>
+            
+            <!--<div id= "page1-btn">
+                <a class="btn btn-lg" href="#about" role="buttom" >ABOUT ME</a>
+            </div>-->  
+            <a href= "#about"> 
+            <button type="button" class="btn btn-default btn-md wow zoomIn">About me </button>
+            </a>    
+        </div>  
+    </section>  
+    
+    <!--second Container-->
+    <section id= "about">
+        <div class="container-fluid2 bg-2 text-center">
+            <h3 class="margin">Hey!! This is Wanqin Liang.</h3>
+            <p class="wow bounceInLeft Inmargin">
+                BS in Computer Science from the City College of New York
+            </p>
+            <p class="wow bounceInRight margin">
+                A front-End Developer with experience in building web interface by 
+                using HTML, CSS , JavaSctipt, Bootstrap and Jquery 
+            </p>
+            <a href= "#project"> 
+            <button type="button" class="btn btn-default btn-md animated zoomIn">
+                <h1>project</h1>
+            </button>
+            </a>    
+        </div>  
+    </section>
+    
+    <!--Third Container-->
+    <section id= "project">
+        <div class="container-fluid3 bg-3 text-center">    
+          <h4 class="margin">Project</h4>
+          <div class="row">
+            <div class=" wow slideInDown col-sm-4">
+              <h3>GameHub (Web Design Course)</h3>
+              <p>Used Visual Studio to build a blog with Python library Django web framework which also created regulation for users to create new account and posted game review. Linked the blog with Django database to store and process data.</p>
+            </div>
+            <div class="wow slideInDown col-sm-4"> 
+              <h3>JDBC Access to Database (Database System)</h3>
+              <p>Used SQL queries and PHP to insert data into a relational database. Our project is created a function which used JDBC to run SQL for passing client’s information and manipulating tables in the database.</p>
+            </div>
+            <div class="wow slideInDown col-sm-4"> 
+              <h3>Tennis Game</h3>    
+              <p>Used an HTML element “canvas” to build a simple JavaScript game which capture the mouse movement as the player and set up an AI player with function.</p>
+            </div>
+          </div>
+        <!--  <a href= "#contact">    
+          <button type="button"  class="btn btn-default btn-md">
+              <h1>contact</h1>
+          </button>
+          </a>  -->
+        <!--    <a class ="btn btn-lg btn-general btn-blue smooth-scroll" href= "#contact" role="button" title="contact"> contact ME</a>  -->  
+        </div> 
+    </section>
+    
+    <!--footer-->
+    <section id= "contact">
+        <footer class="container-fluid4 bg-4 text-center">
+            <a href = "http://github.com/wanqinliang">    
+            <img src="img/githubicon.PNG" class="img-rounded" alt="github" width="50" height="50">
+            </a>    
+            <p><img src="img/logo.PNG" class="img-rounded" alt="location" width="40" height="40"> : New York City, New York </p>    
+            <p><span class="glyphicon glyphicon-envelope"></span>：wanqinliang@gmail.com</p>  
+            
+            <h1 class="text-white">Copyrights &copy; 2018 All Rights Reserved by Wanqin Liang</h1>
+        </footer>
+    </section>
+    
+    <!--custom Jquery file-->
+    <script src="js/jquery.js"></script>
+    
+    <!--link bootstrap js-->
+    <script src = "js/bootstrap/bootstrap.min.js"> </script>
+    
+    <!--wow js -->
+    <script src="js/wow/wow.min.js"></script>
+   
+    <!--custom Javascripe file-->
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
